@@ -13,10 +13,11 @@ title: Tom Brow
     <p>I'm a software engineer in San Francisco. I'm working on <a href="http://pod.io">Pod</a>.</p>
     <p>I've previously worked for <a href="http://asana.com">Asana</a>, <a href="http://google.com">Google</a>, <a href="http://lytro.com">Lytro</a>, and <a href="http://originatelabs.com">Originate</a>.</p>
     <p>I've consulted for startups funded by <a href="http://harrisonmetal.com">Harrison Metal</a>, <a href="http://ycombinator.com">Y Combinator</a>, and <a href="http://accel.com">Accel Partners</a>.</p>
+    <p>I made <a href="/noise">Noise</a>, a human- and computer-readable language for graphic design.</p>
     <p>I cut my teeth on <a href="http://hypercard.org/">HyperCard</a> and <a href="http://cs.stanford.edu">Stanford CS</a>. Here's my <a href="/cv">CV</a>.</p>
   </div>
   <div class="one-third column">
-    <h3>Where I Am</h3>
+    <h3>Where</h3>
     <ul class="square">
       <li><a href="http://twitter.com/browgrammer">@browgrammer</a>
       <li><a href="http://github.com/brow">github.com/brow</a>
@@ -25,7 +26,13 @@ title: Tom Brow
     </ul>
   </div>
   <div class="one-third column">
-    <h3>Projects</h3>
-    <p><a href="/noise">Noise</a>, a human- and computer-readable language for graphic design.</p>
+    <h3>Writing</h3>
+    <ul class="square">
+      {% for post in site.posts %}
+      <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 </div>
