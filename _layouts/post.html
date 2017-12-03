@@ -3,24 +3,13 @@ layout: default
 ---
 <div class="container post">
   <div class="sixteen columns">
-    <h1 class="remove-bottom">{{ page.title }}</h1>
     <p class="subheader">
-      {{ page.year }},
       <a href="/">Tom Brow</a>
     </p>
+    <h1 class="remove-bottom">{{ page.title }}</h1>
     <hr />
   </div>
-  <div class="one-third column">
-    {% if page.video_mp4_url %}
-      <video autoplay controls>
-        <source type="video/mp4" src="{{ page.video_mp4_url }}" />
-        <source type="video/webm" src="{{ page.video_webm_url }}" />
-      </video>
-    {% else %}
-      <img src="{{ page.screenshot_url }}" />
-    {% endif %}
-  </div>
-  <div class="two-thirds column">
+  <div class="sixteen columns">
     {{ content }}
   </div>
 </div>
