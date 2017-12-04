@@ -18,7 +18,7 @@ immediately, unblocking the thread it's running on and performing its work on
 another thread or in future iterations of the event loop. In fact,
 `enumerateEvents` does not return until it has iterated through every event
 matching the supplied predicate–and performed all of the I/O that makes the
-iteration possible. [1]
+iteration possible.[^escaping]
 
 That might be okay to do on the main thread if we're fetching a known, small
 number of events. But if the number is unbounded, then `enumerateEvents` is as
@@ -34,7 +34,7 @@ This raises an interesting question, at least for developers who've been burned
 by Cocoa in the past: is `EKEventStore` "thread-safe"? In other words, are we
 allowed call methods on the same instance from different threads? And can we do
 that without serializing those calls–guaranteeing that each call returns before
-the subsequent call begins?[1]
+the subsequent call begins?[^thread-unsafe]
 
 The EventKit docs don't answer that question. But I found in experimentation
 that `EKEventStore` does serialize calls to `events`, `enumerateEvents`, and
@@ -66,7 +66,7 @@ must return a value. The behavior is called faulting.
 In both `EKEvent` and `NSManagedObject`, this synchronous fetching of
 properties is usually not a problem. Fetching a few properties for a single
 object is fast enough to blend in with other work routinely performed on
-the main thread.[3]
+the main thread.[^fetch-mistake]
 
 But how does this automatic fetching on the main thread interact with the
 deliberate fetching we're doing on background threads? Consider this scenario:
@@ -112,7 +112,7 @@ of mistakes, it's probably safest to discard `EKEvent`s at the earliest
 opportunity, after copying the data we're interested in into some other data
 structure that can be accessed without side effects. Ideally, an `EKEvent`
 never escapes the scope of the `enumerateEvents` block where we are given
-it.[4]
+it.[^discard-ekevent]
 
 ## Conclusion
 
@@ -128,17 +128,24 @@ intended to resemble one another, and also to resemble a vision of a Core Data
 without thread confinement, prefetching, uniquing, or client control over
 faulting.
 
-[1] Why is the callback always `@escaping` then? I don't know.
+## Footnotes
 
-[2] If the answer to one of these questions is "no", a Cocoa framework usually
-tells us so by crashing with surprising, diverse, and opaque stack traces.
+[^escaping]: Why is the callback always `@escaping` then? I don't know.
 
-[3] A classic accident, however, is to unwittingly cause properties to be
-fetched for many `NSManagedObject`s at one time, back-to-back, by iterating
-over them.
+[^thread-unsafe]: 
+    If the answer to one of these questions is "no", a Cocoa
+    framework usually tells us so by crashing with surprising, diverse, and
+    opaque stack traces.
 
-[4] A benefit of that approach is that only one `EKEvent` need be in memory at once,
-and all of the I/O we incur by accessing it occurs on the background thread!
+[^fetch-mistake]: 
+    A classic accident, however, is to unwittingly cause
+    properties to be fetched for many `NSManagedObject`s at one time,
+    back-to-back, by iterating over them.
+
+[^discard-ekevent]: 
+    A benefit of that approach is that only one `EKEvent` need
+    be in memory at once, and all of the I/O we incur by accessing it occurs on
+    the background thread!
 
 [Quality of Service class]: https://developer.apple.com/library/content/documentation/Performance/Conceptual/EnergyGuide-iOS/PrioritizeWorkWithQoS.html
 [priority inversion]: https://en.wikipedia.org/wiki/Priority_inversion
