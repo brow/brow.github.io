@@ -13,11 +13,11 @@ at once. Like most `enumerate` APIs in Cocoa, the method takes a callback
 parameter that will be called for each element.
 
 However, also like other `enumerate` APIs, the presence of a callback does not
-imply that `enumerateEvents` is an asynchronous method–that it will return
+imply that `enumerateEvents` is an asynchronous method—that it will return
 immediately, unblocking the thread it's running on and performing its work on
 another thread or in future iterations of the event loop. In fact,
 `enumerateEvents` does not return until it has iterated through every event
-matching the supplied predicate–and performed all of the I/O that makes the
+matching the supplied predicate—and performed all of the I/O that makes the
 iteration possible.[^escaping]
 
 That might be okay to do on the main thread if we're fetching a known, small
@@ -33,7 +33,7 @@ mean we're calling them on a thread that's okay to block.
 This raises an interesting question, at least for developers who've been burned
 by Cocoa in the past: is `EKEventStore` "thread-safe"? In other words, are we
 allowed call methods on the same instance from different threads? And can we do
-that without serializing those calls–guaranteeing that each call returns before
+that without serializing those calls—guaranteeing that each call returns before
 the subsequent call begins?[^thread-unsafe]
 
 The EventKit docs don't answer that question. But I found in experimentation
