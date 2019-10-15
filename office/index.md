@@ -2,15 +2,17 @@
 layout: page
 title: Two-person office to share
 ---
-I'm looking for one person to share a sunny private office in the [Brix coworking space](https://brixmortarcoworking.com) on the capitol square, for any period of time!
+I'm looking for one person to share a sunny private office in the [Brix coworking space](https://brixmortarcoworking.com) on the capitol square, for any period of time.
 
 <img class="large" src="images/pano.jpg" />
 
+ I moved into this office from the open desk area because I love the natural light it gets—the best light I've found in any coworking space in Madison!
+
 ## About the office
-- Copious natural light all day from big windows. This is the best light I've found in Madison, both in this building and in 3 other coworking spaces I toured!
-- Brix provides coffee, kitchen with fridge, fast wifi, printing, and rooms for phone calls and in-person meetings.
+- Big windows with a 6th-story view of the square.
+- Brix provides coffee, a nice kitchen, fast wifi, printing, and rooms for phone calls and in-person meetings.
 - I use a desk, chair, and filing cabinet provided by Brix. They have more of these on hand, or you can bring your own.
-- Adjoins an open coworking area. I often close the door for more quiet, and lock the door when I leave for the night.
+- Adjoins an open coworking area. I usually close the door for more quiet.
 - Enough space that we could also get a couch or something!
 - Costs $495/mo. total, so $248.50/mo. to each of us
 
