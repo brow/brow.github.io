@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Consulting
-description: I design and build software that interfaces directly with people. For the last 10 years, I've focused on native iOS applications.
+description: I've spent the last 11 years helping product companies accomplish their goals, with a special focus on the iOS platform.
 ---
 
 I cofounded and developed [Pod](/pod), a well-loved iOS calendar app that was acquired in 2019. Before that I led iOS development at [Asana](https://asana.com).
@@ -27,7 +27,7 @@ I have long experience with the special challenges of mobile software: performan
 I often collaborate with other engineers to isolate issues throughout the technical stack. As a founder I've worked in all parts of the stack and solved business problems in a variety of ways.
 
 ## Background
-I've specialized in iOS development for tech companies for 11 years. Before that I studied computer science at [Stanford](https://cs.stanford.edu/).
+I've specialized in iOS development for product companies for 11 years. Before that I studied computer science at [Stanford](https://cs.stanford.edu/).
 
 Find [my full CV on LinkedIn](https://www.linkedin.com/in/tombrow/).
 
