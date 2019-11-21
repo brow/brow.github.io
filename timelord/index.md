@@ -16,7 +16,7 @@ Timelord is great for any hands-on activity when you need to keep track of multi
 
 It works great with AirPods or with your phone sitting on the counter, and you can listen to music or podcasts while using it.
 
-Timelord is **coming soon** to the iOS App Store.
+Timelord is **coming soon** to the iOS App Store. [Join the beta](https://testflight.apple.com/join/I6ttbuDu) to use it now.
 
 ## Privacy
 
