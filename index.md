@@ -3,7 +3,7 @@ layout: default
 description: I design and build software. I led iOS development at Asana and cofounded Pod. I'm available for consulting sometimes.
 ---
 
-<img 
+<img
   class="headshot"
   src="https://s.gravatar.com/avatar/857ce6f50d086b1232ccfcb9030ae4e2?s=360"
   alt="photo of Tom">
@@ -16,9 +16,9 @@ I'm sometimes available for [consulting](/consulting).
 
 Previously I cofounded [Pod](/pod) and led iOS development at [Asana](https://asana.com).
 
-Longer ago I worked at Google and Lytro, and consulted for startups funded by Y Combinator, Harrison Metal, and Accel Partners.
+Longer ago I worked at [Google](https://www.google.com/) and [Lytro](https://en.wikipedia.org/wiki/Lytro), consulted for startups, and studied computer science at [Stanford](https://cs.stanford.edu/).
 
-Longer ago yet I studied computer science at [Stanford](https://cs.stanford.edu/). My full CV is on [LinkedIn](https://www.linkedin.com/in/tombrow/).
+My full CV is on [my LinkedIn](https://www.linkedin.com/in/tombrow/).
 
 ## Contact
 
@@ -33,4 +33,3 @@ Longer ago yet I studied computer science at [Stanford](https://cs.stanford.edu/
 * [{{post.title}}]({{post.url}}) ({{ post.date | date: '%B %Y' }})
 
 {% endfor %}
-
