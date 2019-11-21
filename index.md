@@ -10,7 +10,7 @@ description: I design and build software. I led iOS development at Asana and cof
 
 # Tom Brow
 
-I design and build software for human use. For the last 10 years, I've focused on native iOS apps.
+I design and build software for human use. For the last 11 years, I've focused on native iOS apps.
 
 I'm sometimes available for [consulting](/consulting).
 
