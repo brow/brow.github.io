@@ -68,4 +68,6 @@ All the above is distilled from [Hello darkness, my old friend](https://web.dev/
 >
 > The first ever browser, WorldWideWeb, displayed webpages this way. Fun fact: the second ever browser, Line Mode Browser—a terminal-based browser—was green on dark.
 
+**Update:** This post is discussed on [Hacker News](https://news.ycombinator.com/item?id=21195913) and [Reddit](https://www.reddit.com/r/webdev/comments/df4hxq/dark_mode_in_css_with_preferscolorscheme/).
+
 If you'd like to hear about other projects of mine, [subscribe to my newsletter](https://tinyletter.com/brow)!
