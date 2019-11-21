@@ -35,8 +35,11 @@ My full CV is on [my LinkedIn](https://www.linkedin.com/in/tombrow/).
 
 ## Writing
 
+<ul>
 {% for post in site.posts %}
-
-* [{{post.title}}]({{post.url}}) ({{ post.date | date: '%B %Y' }})
-
+    <li>
+        <a href="{{post.url}}">{{post.title}}</a>
+        ({{ post.date | date: '%B %Y' }})
+    </li>
 {% endfor %}
+</ul>
