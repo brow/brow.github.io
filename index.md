@@ -14,7 +14,7 @@ I design and build software for human use. For the last 10 years, I've focused o
 
 I'm sometimes available for [consulting](/consulting).
 
-Previously I led iOS development at [Asana](https://asana.com), then cofounded [Pod](/pod).
+Previously I cofounded [Pod](/pod) and led iOS development at [Asana](https://asana.com).
 
 Longer ago I worked at Google and Lytro, and consulted for startups funded by Y Combinator, Harrison Metal, and Accel Partners.
 
