@@ -10,9 +10,9 @@ description: I design and build software. I led iOS development at Asana and cof
 
 # Tom Brow
 
-I design and build software for human use. For the last 11 years, I've focused on native iOS apps.
+I design and build software for human use. For the last 12 years, I've focused on native iOS apps.
 
-I'm sometimes available for [consulting](/consulting).
+Today I lead iOS development at [Chalk](https://chalkapp.com).
 
 Previously I cofounded [Pod](/pod) and led iOS development at [Asana](https://asana.com).
 
