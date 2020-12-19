@@ -29,9 +29,7 @@ My full CV is on [my LinkedIn](https://www.linkedin.com/in/tombrow/).
 ## Projects
 
 * [Timelord](/timelord), a voice-controlled iOS kitchen timer
-* [jklp], a minimal ergonomic keyboard ([1](https://www.reddit.com/r/MechanicalKeyboards/comments/dwc3go/why_have_you_created_me/),
-    [2](https://www.reddit.com/r/ErgoMechKeyboards/comments/dq67gm/3_generations_of_a_prototype/),
-    [3](https://www.reddit.com/r/ErgoMechKeyboards/comments/dqq4ib/winters_coming/))
+* [Balbuzard](https://github.com/brow/balbuzard) and [jklp](https://github.com/brow/jklp), compact ergonomic keyboards
 
 ## Writing
 
@@ -48,4 +46,4 @@ My full CV is on [my LinkedIn](https://www.linkedin.com/in/tombrow/).
 
 </ul>
 
-[jklp]: https://github.com/brow/jklp
+
