@@ -12,7 +12,7 @@ description: I design and build software. I led iOS development at Asana and cof
 
 I design and build software for human use. For the last 12 years, I've focused on native iOS apps.
 
-Today I lead iOS development at [Chalk](https://chalkapp.com).
+Today I lead development of [Pump](https://pump.app)'s app.
 
 Previously I cofounded [Pod](/pod) and led iOS development at [Asana](https://asana.com).
 
