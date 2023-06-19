@@ -12,7 +12,7 @@ description: I design and build software, focusing on native iOS apps.
 
 I design and build software for human use. For the last 15 years, I've focused on native iOS apps.
 
-Today I build foundational frameworks and tools for [Square](squareup.com)'s apps.
+Today I build foundational frameworks and tools for [Square](https://squareup.com)'s apps.
 
 Previously I led iOS development at [Asana](https://asana.com) and cofounded [Pod](/pod).
 
