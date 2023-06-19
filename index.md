@@ -1,6 +1,6 @@
 ---
 layout: default
-description: I design and build software. I led iOS development at Asana and cofounded Pod. I'm available for consulting sometimes.
+description: I design and build software, focusing on native iOS apps.
 ---
 
 <img
@@ -10,11 +10,11 @@ description: I design and build software. I led iOS development at Asana and cof
 
 # Tom Brow
 
-I design and build software for human use. For the last 12 years, I've focused on native iOS apps.
+I design and build software for human use. For the last 15 years, I've focused on native iOS apps.
 
-Today I lead development of [Pump](https://pump.app)'s app.
+Today I build foundational frameworks and tools for [Square](squareup.com)'s apps.
 
-Previously I cofounded [Pod](/pod) and led iOS development at [Asana](https://asana.com).
+Previously I led iOS development at [Asana](https://asana.com) and cofounded [Pod](/pod).
 
 Longer ago I worked at [Google](https://www.google.com/) and [Lytro](https://en.wikipedia.org/wiki/Lytro), consulted for startups, and studied computer science at [Stanford](https://cs.stanford.edu/).
 
