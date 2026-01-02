@@ -1,11 +1,15 @@
 ---
 layout: default
 ---
-<a href="/">Tom Brow →</a>
-<header>
-  <h1>{{ page.title }}</h1>
+<a href="/" class="back-link">&larr; Tom Brow</a>
+
+<header class="page-header">
+  <h1 class="page-title">{{ page.title }}</h1>
   {% if page.date %}
-    <span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
+    <span class="page-date">{{ page.date | date: '%B %d, %Y' }}</span>
   {% endif %}
 </header>
-<div>{{ content }}</div>
+
+<div class="content">
+{{ content }}
+</div>
