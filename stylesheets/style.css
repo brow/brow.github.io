@@ -194,8 +194,10 @@ pre {
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
+  html, body {
     background-color: #444;
+  }
+  body {
     color: #e4e4e4;
   }
   a {
