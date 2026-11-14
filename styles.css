@@ -8,16 +8,9 @@ ul { padding-left:32px; margin:12px 0 18px; }
 li { margin:8px 0; }
 img { max-width:100%; height:auto; }
 nav { margin:16px 0 24px; }
-time { color:#595959; }
-blockquote { margin:20px 0; padding-left:20px; border-left:2px solid #ccc; }
-pre { padding:16px; background:#f2f2f2; overflow-x:auto; overflow-wrap:normal; }
-code { font-size:0.875em; }
 @media(pointer:coarse) { li { margin:14px 0; } }
 @media(prefers-color-scheme:dark) {
   body { background:#1c1c1c; color:#e4e4e4; }
   a:link { color:#9ac5ff; }
   a:visited { color:#d2adff; }
-  time { color:#aaa; }
-  blockquote { border-color:#555; }
-  pre { background:#292929; }
 }
